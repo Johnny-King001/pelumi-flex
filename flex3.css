@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-color {
+  background-color: #1f2937;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.ano {
+  max-width: 60%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+}
+
+header > nav ul {
+  display: flex;
+  justify-content: space-between;
+  /* color: red; */
+  list-style: none;
+  gap: 20px;
+}
+
+.hero-section {
+  margin-top: 90px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-img {
+  height: 200px;
+  width: 400px;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding-left: 90px;
+}
+
+.hero-section button {
+  background-color: #3883f6;
+  border-radius: 15px;
+  outline: none;
+  font-size: 20px;
+  padding-block: 15px;
+  color: white;
+  margin-top: 10px;
+  padding: 10px 30px;
+  font-weight: 500;
+  width: 150px;
+}
+
+.next h1 {
+  text-align: center;
+}
+
+.next {
+  padding-block: 30px 70px;
+}
+
+.next > div {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.next div div {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #3883f6;
+  border-radius: 5px;
+}
+
+.nex {
+  background-color: #e5e7eb;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  max-width: auto;
+  padding-block: 50px;
+  line-height: 30px;
+}
+
+.nex > div > h3 {
+  font-size: 25px;
+  max-width: 900px;
+  font-family: italic;
+  color: black;
+  font-weight: 0;
+}
+
+.thor {
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.ne {
+  padding-block: 100px;
+  /* padding-left: 30px; */
+}
+.bg {
+  background-color: #3883f6;
+  padding: 10px 70px;
+  max-width: 700px;
+  margin: auto;
+  height: 150px;
+  padding-block: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+button {
+  background-color: transparent;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding-block: 10px;
+  padding: 10px;
+  width: 100px;
+  font-weight: 600;
+  color: white;
+}
+
+.bg p:nth-child(1) {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.n{
+  background-color: #1f2937;
+  text-align: center;
+  padding-block: 30px;
+  font-weight: 600;
+  color: white;
+}
